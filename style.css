@@ -1,0 +1,258 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url('images/bg3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*navbar css*/
+.navbar {
+    background-color: black !important;
+}
+
+.logo {
+    width: 120px;
+    height: 50px;
+    background-color: #fdc303;
+    margin: 0px 0px 0px 50px;
+    border-radius: 10px;
+}
+
+.navbar-nav {
+    padding: 0px 50px 0px 0px;
+}
+
+.nav-item {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 20px 0px 0px;
+}
+
+.home {
+    background-color: #fcba05 !important;
+    border-radius: 5px;
+    color: rgb(0, 0, 0) !important;
+}
+
+.about {
+    color: rgb(0, 0, 0) !important;
+}
+
+.contact {
+    color: rgb(0, 0, 0) !important;
+}
+
+
+
+.nav-link:hover{
+    background-color: #fc9802 !important;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 1px 0px 0px 0px;
+    
+}
+
+.navbar-collapse {
+text-align: center;
+}
+
+.navbar-toggler { 
+    background-color: rgb(0, 0, 0);
+}
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(253, 195, 3, 0.9)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/*slider css*/
+
+.img1 {
+    width: 100%;
+    height: 550px;
+}
+
+.slider-text1 {
+    font-size: 70px;
+    font-weight: bolder;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+        0px 8px 13px rgba(0, 0, 0, 0.1),
+        0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+.slider-text2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+        0px 8px 13px rgba(0, 0, 0, 0.1),
+        0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+/*welcome section css*/
+
+.welcome {
+    width: 50%;
+    color: rgb(255, 255, 255);
+    margin: 10px 0px 0px 0px;
+    padding: 20px 0px 20px 0px;
+}
+
+.section-second {
+    margin: 0px 0px 0px 0px;
+}
+
+/* card css*/
+.cards-group {
+    padding: 20px 40px 20px 40px;
+    margin: 10px 0px 0px 0px;
+
+}
+
+.about-border {
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: #fdc303;
+    margin: 20px auto;
+    align-items: center;
+}
+
+.card-body {
+    background-color: black !important;
+    color: white !important;
+}
+
+.card-title {
+    color: #fdc303 !important;
+}
+
+.rs {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fdc303 !important;
+}
+/* bottom card css*/
+.card-one {
+    margin: 20px 40px 30px 40px;
+}
+.card-detail {
+    color: white;
+}
+.about-border2 {
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: rgb(253, 195, 3);
+    margin: 0px 0px 10px 5px;
+    align-items: left;
+}
+
+/*footer css*/
+.footer{
+    background-color:black;
+    color: white;
+}
+
+/*contact page css*/
+.wrapper {
+    
+    
+
+    width: 100%
+}
+
+.overlay {
+    width: 100%;
+    
+    
+}
+
+.contact-us {
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+.contact-us h3,
+p {
+    color: #fff
+}
+
+.address {
+    margin-top: 14px !important;
+    margin-left: 10px
+}
+
+.address span {
+    color:  rgb(253, 195, 3);
+}
+
+.icons {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.icons i {
+    font-size: 20px
+}
+
+.forms {
+    padding: 20px
+}
+
+.inputs input {
+    margin-bottom: 13px;
+    border: none;
+    border-bottom: 2px solid rgb(209, 208, 208);
+}
+
+.inputs input:focus {
+    margin-bottom: 13px;
+    border: none;
+    border-bottom: 2px solid  rgb(253, 195, 3);
+    box-shadow: none
+}
+
+.inputs textarea {
+    margin-bottom: 13px;
+    border: none;
+    border-bottom: 2px solid rgb(209, 208, 208);
+    width: 100%;
+    resize: none
+}
+
+.inputs textarea:focus {
+    margin-bottom: 13px;
+    border: none;
+    border-bottom: 2px solid  rgb(253, 195, 3);
+    box-shadow: none;
+    resize: none
+}
+
+.form-control {
+    padding: .375rem .25rem
+}
+
+.btn {
+    background-color:  rgb(253, 195, 3);
+}
+
+/*map css*/
+.map {
+    padding: 0px 50px 0px 50px;
+}
+
+/*faqs css*/
+.faq-heading { 
+    color: white;}
+.faq { 
+    margin: 50px 0px 50px 20px;
+    padding: 0px 50px 0px 50px;
+}
+
+
+
+
